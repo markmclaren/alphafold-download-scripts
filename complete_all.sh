@@ -5,7 +5,7 @@
 # This script creates a .download_complete file in the appropriate directory
 # based on the specified download mode.
 
-DOWNLOAD_DIR="\$1"             # Parent directory for the download process
+DOWNLOAD_DIR="$1"              # Parent directory for the download process
 DOWNLOAD_MODE="${2:-full_dbs}" # Default mode to full_dbs if not provided
 
 # List of directories to create .download_complete files in
