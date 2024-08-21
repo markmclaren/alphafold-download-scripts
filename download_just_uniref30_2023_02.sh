@@ -29,4 +29,4 @@ download_database() {
 }
 
 # Uniref30
-download_database "download_uniref30_2023_O2.sh" "uniref30"
+download_database "download_uniref30_2023_02.sh" "uniref30"
